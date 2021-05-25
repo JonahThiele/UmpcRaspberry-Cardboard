@@ -8,8 +8,7 @@ I built a small pocket computer using off the shelf components:
 4. custom carboard case
 
 <h2> creating the umpc case:
-</h2>
-1. I drew around the bluetooth keyboard and cut out a piece of cardboard for the base.
+</h2>1. I drew around the bluetooth keyboard and cut out a piece of cardboard for the base.
 2. I cut strips of carboard and duct taped then to the interior of the base to create a holder for the keyboard
 3. I measured out the lcd screen and cut a base and sides for its enclosure and duct taped the interior together
 4. I created a joint between to the two pieces out of an old colored pencil and some zipties and used masking tape to connect it to both pieces
