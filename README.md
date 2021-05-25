@@ -20,6 +20,8 @@ I built a small pocket computer using off the shelf components:
 1. I set up the pi adn ran the lcd wiki script for the MHS 3.5 inch screen
 2. This caused the main terminal and some virtual terminals to not display correctly
 3. So I entered the second virtual terminal and ran 
-`<addr>` hi
+```
+sudo nano /boot/cmdline.txt
+```
 
 <h2> Note running the Lcd script for 
