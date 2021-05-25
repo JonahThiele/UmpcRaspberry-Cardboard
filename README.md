@@ -1,5 +1,11 @@
 # UmpcRaspberry-Cardboard
 Using a raspberry pi zero w to create a ultra-mini pocket computer
+<h2> Images
+</h2>
+
+![umpc off and open](/images/20210524_155739.jpg)
+![umpc closed](/images/20210524_155746.jpg)
+![umpc open and on](/images/20210524_155916.jpg)
 
 I built a small pocket computer using off the shelf components:
 1. 20000 mAh [power bank](https://www.amazon.com/ENEGON-Portable-20000mAh-Charger-Battery/dp/B083QCGPHZ/ref=asc_df_B083QCGPHZ/?tag=hyprod-20&linkCode=df0&hvadid=416804729915&hvpos=&hvnetw=g&hvrand=2400125951467309697&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1020414&hvtargid=pla-877205369897&psc=1&tag=&ref=&adgrpid=96943124074&hvpone=&hvptwo=&hvadid=416804729915&hvpos=&hvnetw=g&hvrand=2400125951467309697&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1020414&hvtargid=pla-877205369897) to supply the pi with power
