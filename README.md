@@ -27,5 +27,10 @@ I built a small pocket computer using off the shelf components:
 ```
    sudo nano /boot/cmdline.txt
 ```
+4. then changed fbcon=map:10 to
 
-<h2> Note running the Lcd script for 
+```
+   fbcon=map:1
+```
+5. and that fixed it except it deleted the bluetooth module and now the hciconfig doesn't work, if I find an answer I will kept you posted
+
