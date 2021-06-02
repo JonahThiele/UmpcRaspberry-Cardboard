@@ -6,6 +6,7 @@ Using a raspberry pi zero w to create a ultra-mini pocket computer
 ![umpc off and open](/images/20210524_155739.jpg)
 ![umpc closed](/images/20210524_155746.jpg)
 ![umpc open and on](/images/20210524_155916.jpg)
+![umpc open and on and typing](/images/20210601_203316.jpg)
 
 I built a small pocket computer using off the shelf components:
 1. 20000 mAh [power bank](https://www.amazon.com/ENEGON-Portable-20000mAh-Charger-Battery/dp/B083QCGPHZ/ref=asc_df_B083QCGPHZ/?tag=hyprod-20&linkCode=df0&hvadid=416804729915&hvpos=&hvnetw=g&hvrand=2400125951467309697&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1020414&hvtargid=pla-877205369897&psc=1&tag=&ref=&adgrpid=96943124074&hvpone=&hvptwo=&hvadid=416804729915&hvpos=&hvnetw=g&hvrand=2400125951467309697&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1020414&hvtargid=pla-877205369897) to supply the pi with power
@@ -26,7 +27,7 @@ I built a small pocket computer using off the shelf components:
 <h2> Getting the screen and bluetooth to connect
 </h2>
 
-1. I set up the pi adn ran the lcd wiki script for the MHS 3.5 inch screen
+1. I set up the pi adn ran the lcd wiki [script](http://www.lcdwiki.com/MHS-3.5inch_RPi_Display) for the MHS 3.5 inch screen
 2. This caused the main terminal and some virtual terminals to not display correctly
 3. So I entered the second virtual terminal and ran 
 
@@ -38,5 +39,15 @@ I built a small pocket computer using off the shelf components:
 ```
    fbcon=map:1
 ```
-5. And that fixed it except it deleted the bluetooth module and now the hciconfig doesn't work, if I find an answer I will kept you posted
+5. And that fixed it except it deleted the bluetooth module.
+6. So you have to change a parameter in /boot/config.txt
+
+```
+   sudo nano /boot/config.txt
+```
+7. Then you add
+```
+   dtoverlay=miniuart-bt
+```
+8. This seems to make the bluetooth device controller appear and then you can use a [guide](https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/) to further set up the bluetooth
 
