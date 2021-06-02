@@ -27,7 +27,7 @@ I built a small pocket computer using off the shelf components:
 <h2> Getting the screen and bluetooth to connect
 </h2>
 
-1. I set up the pi adn ran the lcd wiki [script](http://www.lcdwiki.com/MHS-3.5inch_RPi_Display) for the MHS 3.5 inch screen
+1. I set up the pi and run the lcd wiki [script](http://www.lcdwiki.com/MHS-3.5inch_RPi_Display) for the MHS 3.5 inch screen
 2. This caused the main terminal and some virtual terminals to not display correctly
 3. So I entered the second virtual terminal and ran 
 
